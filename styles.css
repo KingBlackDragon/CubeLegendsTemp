@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e0124; /* Dark purple background */
+    background-image: url('bg.jpg'); /* Optional: Minecraft Enderman or End dimension background image */
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    background: rgba(30, 1, 36, 0.85); /* Semi-transparent dark purple */
+    padding: 40px;
+    border: 3px solid #8e44ad; /* Neon purple border */
+    border-radius: 8px;
+    box-shadow: 0 0 20px 10px #551a8b; /* Purple glow effect */
+}
+
+.title {
+    font-size: 56px;
+    margin-bottom: 20px;
+    color: #d3b4ff; /* Light lavender text color */
+    text-shadow: 3px 3px #2c0038; /* Dark shadow for 3D effect */
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #e066ff; /* Bright purple */
+}
+
+.countdown p {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #d3b4ff; /* Light lavender */
+    text-shadow: 2px 2px #2c0038;
+}
+
+.newsletter {
+    margin-top: 30px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #8e44ad; /* Neon purple border */
+    border-radius: 4px;
+    margin-right: 10px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #25002f; /* Very dark purple background */
+    color: #fff;
+    box-shadow: 2px 2px #2c0038; /* Subtle shadow */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8e44ad; /* Neon purple */
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    text-shadow: 2px 2px #2c0038;
+    box-shadow: 2px 2px #2c0038;
+}
+
+button:hover {
+    background-color: #a95fc2; /* Lighter neon purple on hover */
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #d3b4ff;
+    font-size: 14px;
+    text-shadow: 2px 2px #2c0038;
+}
